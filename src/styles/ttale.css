@@ -1,0 +1,278 @@
+table, th, td{
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    margin: 3%;
+    background-color: #fff;
+}
+
+td{
+    padding: 0px;
+}
+
+tr:hover {
+    background-color: #e5e5e5;
+}
+
+th:hover {
+    background-color:  rgb(202, 202, 202)
+}
+
+td:hover{
+    background-color: rgb(202, 202, 202)
+}
+
+<table>
+<thead>
+    <RowTitle
+        nameid0 ='Hora'    
+        nameid1 ='Lunes'    
+        nameid2 ='Martes'    
+        nameid3 ='Miercoles'    
+        nameid4 ='Jueves'    
+        nameid5 ='Viernes'    
+        nameid6 ='Sabado'    
+        nameid7 ='Domingo'    
+    />
+</thead>
+<Row
+    type = 'h'
+    nameid0 = '7:00 am'  
+    nameid1 = ''
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '8:00 am'  
+    nameid1 = ''
+    nameid2 = {<Item
+        subjectName = 'Intro Ingenieria'
+    />} 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '9:00 am'  
+    nameid1 = {<Item
+        subjectName = 'Calculo'
+    />}
+    nameid2 = {<Item
+        subjectName = 'Intro Ingenieria'
+    />}  
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '10:00 am'  
+    nameid1 = {<Item
+        subjectName = 'Calculo'
+    />}
+    nameid2 = {<Item
+        subjectName = 'Intro Ingenieria'
+    />} 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '11:00 am'  
+    nameid1 = ''
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '12:00 pm'  
+    nameid1 = ''
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '1:00 pm'  
+    nameid1 = ''
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '2:00 pm'  
+    nameid1 = {<Item
+        subjectName = 'CBD'
+    />}
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '3:00 pm'  
+    nameid1 =  {<Item
+        subjectName = 'CBD'
+    />}
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '4:00 pm'  
+    nameid1 = {<Item
+        subjectName = 'Intro Programación'
+    />}
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '5:00 pm'  
+    nameid1 = {<Item
+        subjectName = 'Intro Programación'
+    />}
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+<Row
+    type = 'h'
+    nameid0 = '6:00 pm'  
+    nameid1 = ''
+    nameid2 = '' 
+    nameid3 = ''    
+    nameid4 = '' 
+    nameid5 = ''  
+    nameid6 = '' 
+    nameid7 = ''
+/>
+</table>
+
+
+<div className="Hours">
+                    <Tbox
+                     title='Hora\Dia'
+                    />
+                    <Tbox
+                     title='7:00 Am'
+                    />
+                    <Tbox
+                     title='8:00 Am'
+                    />
+                    <Tbox
+                     title='9:00 Am'
+                    />
+                    <Tbox
+                     title='10:00 Am'
+                    />
+                    <Tbox
+                     title='11:00 Am'
+                    />
+                    <Tbox
+                     title='12:00 Pm'
+                    />
+                    <Tbox
+                     title='1:00 Pm'
+                    />
+                    <Tbox
+                     title='2:00 Pm'
+                    />
+                    <Tbox
+                     title='3:00 Pm'
+                    />
+                    <Tbox
+                     title='4:00 Pm'
+                    />
+                    <Tbox
+                     title='5:00 Pm'
+                    />
+                    <Tbox
+                     title='6:00 Pm'
+                    />
+                </div>
+                <div className="Subjects">
+
+                    <Tbox
+                     title='Lunes'
+                    />
+                    <Tbox
+                     title='Martes'
+                    />
+                    <Tbox
+                     title='Miercoles'
+                    />
+                    <Tbox
+                     title='Jueves'
+                    />
+                    <Tbox
+                     title='Viernes'
+                    />
+                    <Tbox
+                     title='Sabado'
+                    />
+                    <Tbox
+                     title='Domingo'
+                    />
+                </div>
+                
+
+
+                .Subjects{
+                    width: 85%; 
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    flex-direction: row;
+                    color: #000;
+                }
+                
+                .Hours{
+                    width: 15%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: column;
+                }

@@ -1,0 +1,100 @@
+.CalculoB{
+    transition: all 0.3s;
+    background-color: rgb(29, 58, 185);
+    color: #fff;
+}
+
+.CBDB{
+    transition: all 0.3s;
+    background-color: rgb(14, 139, 189);
+    color: #fff;
+}
+
+.IntroProgB{
+    transition: all 0.3s;
+    background-color: rgb(14, 147, 209);
+    color: #fff;
+}
+
+.IntroIngB{
+    transition: all 0.3s;
+    background-color: rgb(50, 120, 233);
+    color: #fff;
+}
+
+.IntroCADB{
+    transition: all 0.3s;
+    background-color: rgb(24, 101, 224);
+    color: #fff;
+}
+
+.FundTecInfoB{
+    transition: all 0.3s;
+    background-color: rgb(6, 41, 107);
+    color: #fff;
+}
+
+.CIBB{
+    transition: all 0.3s;
+    background-color: rgb(58, 144, 179);
+    color: #fff;
+}
+
+.CalculoB:hover{
+    transition: all 0.3s;
+    background-color: rgb(29, 100, 185);
+    color: #fff;
+}
+
+.CBDB:hover{
+    transition: all 0.3s;
+    background-color: rgb(14, 160, 189);
+    color: #fff;
+}
+
+.IntroProgB:hover{
+    transition: all 0.3s;
+    background-color: rgb(14, 180, 209);
+    color: #fff;
+}
+
+.IntroIngB:hover{
+    transition: all 0.3s;
+    background-color: rgb(50, 160, 233);
+    color: #fff;
+}
+
+.IntroCADB:hover{
+    transition: all 0.3s;
+    background-color: rgb(24, 140, 224);
+    color: #fff;
+}
+
+.FundTecInfoB:hover{
+    transition: all 0.3s;
+    background-color: rgb(6, 60, 107);
+    color: #fff;
+}
+
+.CIBB:hover{
+    transition: all 0.3s;
+    background-color: rgb(58, 165, 179);
+    color: #fff;
+}
+
+
+.Head{
+    background-color: #525252;
+    color: #fff;
+}
+
+.HD{
+    background: #424242;
+    color: #fff;
+}
+
+.Hour{
+    background: #525252;
+    color: #fff;
+}
+

@@ -1,0 +1,164 @@
+.CreditData{
+    margin: 0;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CreditsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CreditosMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.3)
+}
+
+.Csubject{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Scolor{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    margin-right: 2%;
+}
+
+#show{
+    transition: all 0.5s;
+    display:block
+  }
+  
+#hide{
+    transition: all 0.5s;
+    display:none
+}
+
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    transition: all 0.3s;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 28px;
+    border: 0px solid #a12727;
+    border-radius: 8px;
+    background: rgb(4,54,115);
+    background: linear-gradient(90deg, rgba(4,54,115,1) 0%, rgba(157,11,15,1) 50%, rgba(4,54,115,1) 100%);
+}
+
+.btn:hover{
+    transform : scale(1.2);
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    transition: all 0.3s;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 28px;
+    border: 0px solid #a12727;
+    border-radius: 8px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.text{
+    color: #000;
+    margin: 2%;
+}
+
+.Calculo1{
+    background-color: rgb(52, 211, 32);
+    color: #fff;
+}
+
+.CBD1{
+    background-color: rgb(34, 189, 14);
+    color: #fff;
+}
+
+.IntroProg1{
+    background-color: rgb(27, 155, 10);
+    color: #fff;
+}
+
+.IntroIng1{
+    background-color: rgb(71, 233, 50);
+    color: #fff;
+}
+
+.IntroCAD1{
+    background-color: rgb(96, 230, 78);
+    color: #fff;
+}
+
+.FundTecInfo1{
+    background-color: rgb(6, 107, 31);
+    color: #fff;
+}
+
+.CIB1{
+    background-color: rgb(64, 144, 54);
+    color: #fff;
+}
+
+
+.Calculo2{
+    background-color: rgb(29, 58, 185);
+    color: #fff;
+}
+
+.CBD2{
+    background-color: rgb(14, 139, 189);
+    color: #fff;
+}
+
+.IntroProg2{
+    background-color: rgb(14, 147, 209);
+    color: #fff;
+}
+
+.IntroIng2{
+    background-color: rgb(50, 120, 233);
+    color: #fff;
+}
+
+.IntroCAD2{
+    background-color: rgb(24, 101, 224);
+    color: #fff;
+}
+
+.FundTecInfo2{
+    background-color: rgb(6, 41, 107);
+    color: #fff;
+}
+
+.CIB2{
+    background-color: rgb(58, 144, 179);
+    color: #fff;
+}
