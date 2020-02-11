@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/horario/static/css/main.550d99d4.chunk.css",
+    "main.js": "/horario/static/js/main.4fef75b8.chunk.js",
+    "main.js.map": "/horario/static/js/main.4fef75b8.chunk.js.map",
+    "runtime-main.js": "/horario/static/js/runtime-main.612b301b.js",
+    "runtime-main.js.map": "/horario/static/js/runtime-main.612b301b.js.map",
+    "static/js/2.d3a134c8.chunk.js": "/horario/static/js/2.d3a134c8.chunk.js",
+    "static/js/2.d3a134c8.chunk.js.map": "/horario/static/js/2.d3a134c8.chunk.js.map",
+    "index.html": "/horario/index.html",
+    "precache-manifest.5b2f6c5ed01d342d54839a7706aec8ff.js": "/horario/precache-manifest.5b2f6c5ed01d342d54839a7706aec8ff.js",
+    "service-worker.js": "/horario/service-worker.js",
+    "static/css/main.550d99d4.chunk.css.map": "/horario/static/css/main.550d99d4.chunk.css.map",
+    "static/js/2.d3a134c8.chunk.js.LICENSE.txt": "/horario/static/js/2.d3a134c8.chunk.js.LICENSE.txt",
+    "static/media/calculadora.svg": "/horario/static/media/calculadora.292f164b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.612b301b.js",
+    "static/js/2.d3a134c8.chunk.js",
+    "static/css/main.550d99d4.chunk.css",
+    "static/js/main.4fef75b8.chunk.js"
+  ]
+}
